@@ -1,2 +1,6 @@
 (fp_lib_table
+  (lib (name ESP32_PICO_D4)(type KiCad)(uri ${KIPRJMOD}/ESP32_PICO_D4.pretty)(options "")(descr ""))
+  (lib (name OLED-12880)(type KiCad)(uri ${KIPRJMOD}/OLED-12880.pretty)(options "")(descr ""))
+  (lib (name SKSCLCE010)(type KiCad)(uri ${KIPRJMOD}/SKSCLCE010.pretty)(options "")(descr ""))
+  (lib (name CA-C03)(type KiCad)(uri ${KIPRJMOD}/CA-C03.pretty)(options "")(descr ""))
 )
