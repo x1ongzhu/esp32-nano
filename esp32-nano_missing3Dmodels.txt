@@ -1,0 +1,10 @@
+### Missing 3D models - created on 2021-09-28 15:00
+### Printed by checking_3D_models plugin
+Board file: /Users/drew/Projects/kicad/esp32-nano/esp32-nano.kicad_pcb
+3D missing models written to:
+/Users/drew/Projects/kicad/esp32-nano/esp32-nano_missing3Dmodels.txt
+-------
+(u'USB1', u'/Library/Application Support/kicad/modules/packages3d/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl')
+-------
+NBR of 3D missing models:1
+checked extensions ['.stp', '.step', '.stpZ']
