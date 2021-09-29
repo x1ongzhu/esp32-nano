@@ -5,4 +5,5 @@
   (lib (name CA-C03)(type KiCad)(uri ${KIPRJMOD}/CA-C03.pretty)(options "")(descr ""))
   (lib (name 18pin)(type KiCad)(uri ${KIPRJMOD}/18pin.pretty)(options "")(descr ""))
   (lib (name 12pin)(type KiCad)(uri ${KIPRJMOD}/12pin.pretty)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/logo.pretty)(options "")(descr ""))
 )
