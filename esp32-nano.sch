@@ -112,17 +112,6 @@ F 3 "" H 2750 1300 50  0001 C CNN
 	1    2750 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Interface_USB:CP2102N-A01-GQFN28 U1
-U 1 1 61518730
-P 4850 2200
-F 0 "U1" H 4850 811 50  0000 C CNN
-F 1 "CP2102N-A01-GQFN28" H 4850 720 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 5300 1000 50  0001 L CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 4900 1450 50  0001 C CNN
-	1    4850 2200
-	1    0    0    -1  
-$EndComp
 Text GLabel 4100 1700 0    50   Input ~ 0
 USB-PWR-DM
 Text GLabel 4100 1600 0    50   Input ~ 0
@@ -462,9 +451,6 @@ Wire Wire Line
 	2800 4600 2800 4400
 Wire Wire Line
 	2650 4600 2800 4600
-Connection ~ 2800 4400
-Wire Wire Line
-	2800 4400 2950 4400
 Wire Wire Line
 	2100 900  2350 900 
 $Comp
@@ -706,10 +692,6 @@ Text GLabel 10350 2700 2    50   Input ~ 0
 GPIO10
 Text GLabel 10350 2800 2    50   Input ~ 0
 GPIO9
-Text GLabel 10350 2900 2    50   Input ~ 0
-FLASH_SD0
-Text GLabel 10350 3100 2    50   Input ~ 0
-FLASH_CS
 Wire Wire Line
 	10200 2000 10350 2000
 Wire Wire Line
@@ -728,10 +710,6 @@ Wire Wire Line
 	10200 2700 10350 2700
 Wire Wire Line
 	10200 2800 10350 2800
-Wire Wire Line
-	10200 2900 10350 2900
-Wire Wire Line
-	10200 3100 10350 3100
 Text GLabel 9250 1400 1    50   Input ~ 0
 GPIO21
 $Comp
@@ -1590,5 +1568,66 @@ Wire Wire Line
 Wire Wire Line
 	6000 4300 6050 4300
 Wire Wire Line
-	1750 1300 1750 1450
+	1750 1300 1750 1400
+NoConn ~ 5350 1100
+NoConn ~ 5350 1500
+NoConn ~ 4850 900 
+NoConn ~ 5350 1700
+NoConn ~ 5350 1800
+NoConn ~ 5350 2000
+NoConn ~ 5350 2100
+NoConn ~ 5350 2300
+NoConn ~ 5350 2400
+NoConn ~ 5350 2500
+NoConn ~ 5350 2700
+NoConn ~ 5350 2800
+NoConn ~ 5350 2900
+NoConn ~ 5350 3000
+NoConn ~ 5350 3100
+NoConn ~ 5350 3200
+NoConn ~ 5350 3300
+NoConn ~ 2650 3900
+NoConn ~ 1850 4200
+NoConn ~ 5100 6800
+NoConn ~ 5100 6700
+NoConn ~ 5100 6500
+NoConn ~ 4900 5450
+NoConn ~ 10200 3000
+NoConn ~ 8650 1550
+NoConn ~ 8750 1550
+NoConn ~ 8950 1550
+NoConn ~ 9050 1550
+NoConn ~ 4900 4250
+Connection ~ 2800 4400
+Wire Wire Line
+	2800 4400 2950 4400
+$Comp
+L Interface_USB:CP2102N-A01-GQFN28 U1
+U 1 1 61518730
+P 4850 2200
+F 0 "U1" H 4850 811 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN28" H 4850 720 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 5300 1000 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 4900 1450 50  0001 C CNN
+	1    4850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #GND0101
+U 1 1 618AE67A
+P 1850 1400
+F 0 "#GND0101" H 1850 1475 50  0001 C CNN
+F 1 "PWR_FLAG" H 1918 1442 50  0000 L CNN
+F 2 "" H 1850 1400 50  0001 C CNN
+F 3 "~" H 1850 1400 50  0001 C CNN
+	1    1850 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1400 1750 1400
+Connection ~ 1750 1400
+Wire Wire Line
+	1750 1400 1750 1450
+NoConn ~ 10200 3100
+NoConn ~ 10200 2900
 $EndSCHEMATC
