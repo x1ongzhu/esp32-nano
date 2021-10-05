@@ -1,6 +1,4 @@
 (sym_lib_table
-  (lib (name esp32pico_d4)(type Legacy)(uri ${KIPRJMOD}/esp32pico_d4.lib)(options "")(descr ""))
   (lib (name OLED-12880)(type Legacy)(uri ${KIPRJMOD}/OLED-12880.lib)(options "")(descr ""))
   (lib (name esp32-nano-rescue)(type Legacy)(uri ${KIPRJMOD}/esp32-nano-rescue.lib)(options "")(descr ""))
-  (lib (name S8050)(type Legacy)(uri ${KIPRJMOD}/S8050.lib)(options "")(descr ""))
 )

@@ -1,18 +1,11 @@
-19227611954596549
-12pin
-12pin
+19229261493995984
+Antenna
+CA-C03
 
 
 0
-12
-12
-18pin
-18pin
-
-
-0
-18
-18
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -314,6 +307,20 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+Button
+SKSC_HOLE
+alpsalpine SKSC series switch, with mounting hole
+SKSC
+0
+4
+4
+Button
+SKSC_NO_HOLE
+alpsalpine SKSC series switch, no mounting hole
+SKSC
+0
+4
+4
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -2285,13 +2292,6 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
-0
-2
-2
-CA-C03
-CA-C03
-
-
 0
 2
 2
@@ -8105,6 +8105,20 @@ mcrf hirose ufl u.fl microcoaxial
 0
 4
 2
+Connector_Custom
+PinHeader_1x12_P2.54mm
+
+
+0
+12
+12
+Connector_Custom
+PinHeader_1x18_P2.54mm
+
+
+0
+18
+18
 Connector_DIN
 DIN41612_B2_2x8_Female_Vertical_THT
 DIN41612 connector, type B/2, Vertical, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
@@ -50735,13 +50749,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-ESP32_PICO_D4
-ESP32_PICO_D4
-UK Package; 48-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_48_05-08-1704.pdf)
-QFN 0.5
-0
-65
-49
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -76334,13 +76341,13 @@ rotary encoder
 0
 5
 4
-SKSCLCE010
-SKSCLCE010
-
-
+SOC
+ESP32_PICO_D4
+UK Package; 48-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_48_05-08-1704.pdf)
+QFN 0.5
 0
-4
-4
+65
+49
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
