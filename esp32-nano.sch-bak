@@ -635,8 +635,6 @@ Text GLabel 9550 3650 3    50   Input ~ 0
 GPIO2
 Text GLabel 9650 3650 3    50   Input ~ 0
 GPIO0
-Text GLabel 9750 3650 3    50   Input ~ 0
-GPIO4
 Wire Wire Line
 	8650 3550 8650 3650
 Wire Wire Line
@@ -657,8 +655,6 @@ Wire Wire Line
 	9550 3550 9550 3650
 Wire Wire Line
 	9650 3550 9650 3650
-Wire Wire Line
-	9750 3550 9750 3650
 $Comp
 L power:+3V3 #PWR0120
 U 1 1 6158FE5C
@@ -690,12 +686,8 @@ Text GLabel 10350 2600 2    50   Input ~ 0
 GPIO11
 Text GLabel 10350 2700 2    50   Input ~ 0
 GPIO10
-Text GLabel 10350 2800 2    50   Input ~ 0
-GPIO9
 Text GLabel 10350 2900 2    50   Input ~ 0
-FLASH_SD0
-Text GLabel 10350 3100 2    50   Input ~ 0
-FLASH_CS
+GPIO9
 Wire Wire Line
 	10200 2000 10350 2000
 Wire Wire Line
@@ -712,12 +704,6 @@ Wire Wire Line
 	10200 2600 10350 2600
 Wire Wire Line
 	10200 2700 10350 2700
-Wire Wire Line
-	10200 2800 10350 2800
-Wire Wire Line
-	10200 2900 10350 2900
-Wire Wire Line
-	10200 3100 10350 3100
 Text GLabel 9250 1400 1    50   Input ~ 0
 GPIO21
 $Comp
@@ -793,7 +779,7 @@ L Device:R R9
 U 1 1 615CFB4F
 P 1750 5300
 F 0 "R9" V 1650 5300 50  0000 C CNN
-F 1 "10K" V 1850 5300 50  0000 C CNN
+F 1 "3K" V 1850 5300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1680 5300 50  0001 C CNN
 F 3 "~" H 1750 5300 50  0001 C CNN
 	1    1750 5300
@@ -957,7 +943,7 @@ Connection ~ 9350 4550
 Wire Wire Line
 	9350 4550 9450 4550
 Text GLabel 9200 4750 2    50   Input ~ 0
-GPIO4
+VDD_SIO
 Text GLabel 9200 4850 2    50   Input ~ 0
 GPIO13
 Text GLabel 9200 4950 2    50   Input ~ 0
@@ -1007,7 +993,7 @@ L Device:R R14
 U 1 1 617AE2C7
 P 2150 6600
 F 0 "R14" V 1943 6600 50  0000 C CNN
-F 1 "1K" V 2034 6600 50  0000 C CNN
+F 1 "0R" V 2034 6600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2080 6600 50  0001 C CNN
 F 3 "~" H 2150 6600 50  0001 C CNN
 	1    2150 6600
@@ -1636,4 +1622,11 @@ Wire Wire Line
 Connection ~ 1750 1400
 Wire Wire Line
 	1750 1400 1750 1450
+NoConn ~ 10200 3100
+Wire Wire Line
+	10200 2900 10350 2900
+Text GLabel 9750 3650 3    50   Input ~ 0
+VDD_SIO
+Wire Wire Line
+	9750 3550 9750 3650
 $EndSCHEMATC
