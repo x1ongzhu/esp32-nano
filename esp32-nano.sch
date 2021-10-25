@@ -687,7 +687,7 @@ GPIO11
 Text GLabel 10350 2700 2    50   Input ~ 0
 GPIO10
 Text GLabel 10350 2900 2    50   Input ~ 0
-GPIO9
+GPIO17
 Wire Wire Line
 	10200 2000 10350 2000
 Wire Wire Line
@@ -953,7 +953,7 @@ GPIO15
 Text GLabel 9200 5150 2    50   Input ~ 0
 GPIO27
 Text GLabel 9200 5250 2    50   Input ~ 0
-GPIO9
+GPIO17
 Text GLabel 9200 5350 2    50   Input ~ 0
 GPIO10
 Text GLabel 9200 5450 2    50   Input ~ 0

@@ -1586,7 +1586,6 @@ NoConn ~ 5100 6800
 NoConn ~ 5100 6700
 NoConn ~ 5100 6500
 NoConn ~ 4900 5450
-NoConn ~ 10200 3000
 NoConn ~ 8650 1550
 NoConn ~ 8750 1550
 NoConn ~ 8950 1550
@@ -1625,8 +1624,8 @@ Wire Wire Line
 NoConn ~ 10200 3100
 Wire Wire Line
 	10200 2900 10350 2900
-Text GLabel 9750 3650 3    50   Input ~ 0
+Text GLabel 10350 3000 2    50   Input ~ 0
 VDD_SIO
 Wire Wire Line
-	9750 3550 9750 3650
+	10200 3000 10350 3000
 $EndSCHEMATC
